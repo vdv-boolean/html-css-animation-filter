@@ -19,6 +19,7 @@ header, main {
     display: flex;
     align-items: center;
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 /* Exercise */
@@ -33,5 +34,19 @@ header, main {
 
 .ex-1:hover {
     background-color: red;
+    transition:  3s;
+}
+
+/* 2 */
+
+.ex-2 {
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.ex-2:hover {
+    width: 100%;
     transition:  3s;
 }
