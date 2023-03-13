@@ -121,7 +121,16 @@ img {
 
 .ex-7:hover {
     filter: grayscale(1);
+    filter: brightness(0.4); 
     filter: blur(5px);
-    filter: brightness(0.4);
+
+}
+
+/* 8 */
+
+.ex-8:hover {
+    filter: sepia(1);
+    filter: contrast(3);
+    border-radius: 20px;
 }
 
