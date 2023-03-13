@@ -65,3 +65,18 @@ header, main {
     transition:  3s;
 }
 
+/* 4 */
+
+.ex-4 {
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.ex-4:hover {
+    opacity: 0%;
+    transition:  3s;
+}
+
+
