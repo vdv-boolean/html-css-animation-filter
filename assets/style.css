@@ -123,7 +123,7 @@ img {
     filter: grayscale(1);
     filter: brightness(0.4); 
     filter: blur(5px);
-
+    transition: 3s;
 }
 
 /* 8 */
@@ -134,3 +134,10 @@ img {
     border-radius: 20px;
 }
 
+.ex-9:hover {
+    filter: sepia(1);
+    filter: contrast(3);
+    border-radius: 20px;
+    transform: scale(0.4);
+    transition: 3s;
+}
