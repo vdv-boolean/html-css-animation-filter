@@ -28,6 +28,10 @@ img {
     object-fit: cover;
 }
 
+i {
+    font-size: 100px;
+}
+
 /* Exercise */
 
 /* 1 */
@@ -134,10 +138,43 @@ img {
     border-radius: 20px;
 }
 
+/* 9 */
+
 .ex-9:hover {
     filter: sepia(1);
     filter: contrast(3);
     border-radius: 20px;
     transform: scale(0.4);
     transition: 3s;
+}
+
+/* 10 */
+
+.ex-10 {
+    animation: rotate 1s linear infinite;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+/* 11 */
+
+.ex-11:hover {
+    animation: rotate-2 2s linear ;
+}
+@keyframes rotate-2 {
+    0% {
+        transform: rotate(0);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+
 }
