@@ -50,3 +50,18 @@ header, main {
     width: 100%;
     transition:  3s;
 }
+
+/* 3 */
+
+.ex-3 {
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.ex-3:hover {
+    border-radius: 100%;
+    transition:  3s;
+}
+
